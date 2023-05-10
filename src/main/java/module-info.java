@@ -4,4 +4,7 @@ module com.example.t2 {
 
     opens com.example.t1 to javafx.fxml;
     exports com.example.t1;
+
+    opens com.example.t2 to javafx.fxml;
+    exports com.example.t2;
 }
